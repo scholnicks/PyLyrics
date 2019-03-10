@@ -2,7 +2,7 @@ from setuptools import setup
 try:
     import pypandoc
     description = pypandoc.convert('README.md','rst')
-    
+
 except:
     description=''
 setup(name='PyLyrics',
